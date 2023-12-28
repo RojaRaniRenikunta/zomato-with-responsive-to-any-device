@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #1b3a59;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top:0px;
+    width:100%;
+}
+.logo{
+    font-size:30px;
+    margin:20px;
+}
+.logo a{
+    color:white;
+    text-decoration: none;
+}
+.menu{
+    width:60%;
+}
+.menu ul{ 
+    display: flex;
+    margin-right:50px;
+    justify-content: space-between;
+    z-index:2;
+}
+.menu li{
+    list-style:none;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    display: block;
+    font-size: 20px;
+}
+.menu li:hover{
+    background-color: #48637e;
+}
+.toggle{
+    position: absolute;
+    top:12px;
+    right:16px;
+    display: none;
+    font-size:20px;
+    margin-top: 20px;
+}
+.parent{
+    width:100%;
+    height:80vh;
+    background-image:url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-size: 100% 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.zomatologo{
+    font-size:20vh;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    transition: all 0.5s;
+}
+.zomatologo1{
+    font-size:8vh;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    transition: all 0.5s;
+}
+.parent:hover .zomatologo{
+    transform: scale(1.15);
+}
+.parent:hover .zomatologo1{
+    transform: scale(1.15);
+}
+
+.divimage{
+    width:100%;
+    height:35vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.div-img{
+    width:30vw;
+    background-color:rgb(175, 201, 193);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding:20px;
+}
+.img1{
+    width:25vw;
+    height:65%;
+    border-radius: 20px;
+}
+.img1:hover{
+    transform: scale(1.09);
+}
+.s1{
+    font-size:20px;
+    text-align: center;
+}
+.h1{
+    margin-top:4px;
+    font-size:30px;
+    text-align: center;
+}
+
+.divimage1{
+    width:97%;
+    height:15vh;
+    margin-top: 10px;
+    background-color: #edf0f1;
+    /* color:white; */
+    margin-left:23px;
+}
+.secheading1{
+    margin:10px;
+    padding:5px;
+}
+.secheading2{
+    margin:10px;
+    padding:5px;
+}
+
+.divimage2{
+    width:100%;
+    height:35vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.div-img1
+{
+    width:20vw;
+    background-color:rgb(175, 201, 193);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding:20px;
+}
+.img2{
+    width:17vw;
+    height:65%;
+    border-radius: 20px;
+}
+.img2:hover{
+    transform: scale(1.05);
+}
+.head1{
+    font-size:20px;
+    text-align: center;
+}
+
+.divimg4{
+    margin-top: 10px;
+    width:96%;
+    height:10vh;
+    background-color:#edf0f1;
+    margin-left:23px;
+}
+
+.head2{
+    padding: 15px;
+}
+
+.divcont1{
+    width:75%;
+    height:60px;
+    border: 2px solid black;
+    margin-left:200px;
+    margin-top:40px;
+    font-weight: bolder;
+    font-size:30px;
+    border-radius:10px;
+    padding:20px;
+}
+.subdiv1{
+    font-size:15px;
+    font-weight: normal;
+}
+.footer{
+    margin-top:30px;
+    width:100%;
+    height:fit-content;
+    /* border: 3px solid; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #48637e3e;
+    flex-direction:row;
+    gap:0px;
+}
+
+.footehead{
+    margin-top:30px;
+    margin-left: 100px;
+}
+.f1{
+    width:fit-content;
+    height:fit-content;
+    /* border: 2px solid ; */
+    /* margin-left:30px; */
+    /* padding:10px; */
+}
+.subf1{
+    margin-left:30px;
+    margin-top:20px;
+    font-size: 20px;
+    list-style-type:none;
+    cursor: pointer;
+}
+a:hover{
+    color:red;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* .f2
+{
+    width:15vw;
+    height:50vh;
+    border: 2px solid ;
+    /* margin-left: 20px; 
+} */
+
+
+
+
+
+
+@media(max-width:768px) {
+    .toggle{
+        display: block;
+    }
+    .menu{
+        display: none;
+        width:100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu ul{
+        flex-direction: column;
+        width:100vw;
+        background-color: #2f3640;
+        position: absolute;
+    }
+    .menu ul li{
+        text-align: center;
+        margin:10px;
+    }
+    .menu ul li a{
+        padding: 8px 16px;
+        font-size:25px;
+    }
+    .menu.active{
+        display: flex;
+    }
+    .zomatologo{
+        font-size:15vh;
+    }
+    .zomatologo1{
+        font-size:5vh;
+        margin-top:30px;
+        text-align: center;
+    }
+    .parent{
+        height:70vh;
+    }
+    .divimage{
+        width:100%;
+        flex-direction: column;
+        margin-top:10px;
+        height:1000px;
+    }
+    .div-img{
+        width:100%;
+        margin:2px;
+        height: 400px;
+    }
+    .img1{
+        width:80%;
+    }
+    /*  */
+    .secheading1{
+        margin:8px;
+        padding:5px;
+    }
+    .secheading2{
+        margin:8px;
+        padding:5px;
+        font-size:15px;
+    }
+    /*  */
+    .divimage2{
+        width:100%;
+        flex-direction: column;
+        margin-top:30px;
+        height:1000px;
+    }
+    .div-img1{
+        width:100%;
+        margin:2px;
+        height: 400px;
+    }
+    .img2{
+        width:80%;
+    }
+    .footer{
+        flex-direction: column;
+        height:fit-content;
+    }
+    .f1{
+        width:80vw;
+        height:fit-content;
+        /* border: 2px solid ; */
+        margin-left:40px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .menu{
+        width:70%;
+    }
+    .menu ul{
+        margin-right: 0;
+    }
+    .menu ul li a{
+        font-size:20px;
+        padding:10px;
+    }
+    .parent{
+        height:50vh;
+    }
+    .zomatologo{
+        font-size:15vh;
+    }
+    .zomatologo1{
+        font-size:5vh;
+    }
+    .div-img{
+        width:40vw;
+        margin:5px;
+    }
+    .s1{
+        text-align: center;
+        font-size:20px;
+    }
+    .h1{
+        font-size:25px;
+        text-align: center;
+    }
+    .divimage{
+        flex-direction:row;
+    }
+    .div-img1{
+        width:30vw;
+        margin: 10px;
+    }
+    .head1{
+        font-size:23px;
+    }
+
+    .footer{
+        height:fit-content;
+    }
+    .f1{
+        width:100vw;
+        height:fit-content;
+        /* border: 2px solid ; */
+        font-size:5px;
+        margin:0;
+    }
+}

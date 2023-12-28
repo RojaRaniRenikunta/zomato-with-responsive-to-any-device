@@ -1,0 +1,34 @@
+[
+    {
+        "h1": "<b>ABOUT ZOMATO</b>",
+        "p1": "<a href='https://www.zomato.com/who-we-are'>Who We Are</a>",
+        "p2": "<a href='https://blog.zomato.com/'>Blog</a>",
+        "p3": "<a href='https://www.zomato.com/careers'>Work With Us</a>",
+        "p4": "<a href='https://www.zomato.com/investor-relations'>Investor Relations</a>",
+        "p5": "<a href='https://www.zomato.com/report-fraud'>Report Fraud</a>",
+        "p6": "<a href='https://blog.zomato.com/press-kit'>Press Kit</a>",
+        "p7": "<a href='https://www.zomato.com/contact'>Contact Us</a>"
+    },
+    {
+        "h1": "<b>ZOMAVERSE</b>",
+        "p1": "<a href='http://127.0.0.1:5502/webpageusingjs.html'>Zomato</a>",
+        "p2": "<a href='https://blinkit.com/'>Blinkit</a>",
+        "p3": "<a href='https://www.feedingindia.org/'>Feeding India</a>",
+        "p4": "<a href='https://www.hyperpure.com/'>Hyperpure</a>",
+        "p5": "<a href='https://www.zomato.com/zomaland'>Zomaland</a>"
+    },
+    {
+        "h1": "<b>FOR RESTAURANTS</b></a>",
+        "p1": "<a href='https://www.zomato.com/partner-with-us'>Partner With Us</a>",
+        "p2": "<a href='https://play.google.com/store/apps/details?id=com.application.services.partner&hl=en_IN&gl=US'>Apps For You</a>",
+        "h2": "<b>FOR ENTERPRISES</b>",
+        "p3": "<a href='https://www.zomato.com/enterprise-solutions'>Zomato For Enterprise</a>"
+    },
+    {
+        "h1": "<b>LEARN MORE</b>",
+        "p1": "<a href='https://www.zomato.com/policies/privacy/'>Privacy</a>",
+        "p2": "<a href='https://www.zomato.com/policies/security/'>Security</a>",
+        "p3": "<a href='https://www.zomato.com/policies/terms-of-service/'>Terms</a>",
+        "p4": "<a href='https://www.zomato.com/directory'>Sitemap</a>"
+    }
+]
